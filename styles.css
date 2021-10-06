@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+.hero {
+    background: url(media/colorful-hero.jpg) top/cover no-repeat;
+    height: 970px;
+}
+/* <a href="https://www.freepik.com/photos/background">Background photo created by user3802032 - www.freepik.com</a> */
+
+.website-logo {
+    width: 60px;
+}
+
+nav {
+    position: fixed;
+}
+
+.main-nav {
+    float: right;
+    margin-top: 39px;
+    font-size: 25px;
+    color: white;
+}
+
+.main-nav a {
+    padding-right:30px;
+    font-weight: 900;
+}
+
+#title-text-hero {
+    float: right;
+    margin-top: 600px;
+    margin-right: 70px;
+    
+}
+
+#hero-title {
+    color: white;
+    font-size: 110px;
+    margin: 0;
+    float: right;
+}
+
+#about-section {
+    height: 650px;
+}
+
+#portfolio-section {
+    background-color: darkslateblue;
+    height: 600px;
+}
+
+#dreams-section {
+    height: 600px;
+}
