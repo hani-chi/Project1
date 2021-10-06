@@ -2,11 +2,13 @@ body {
     margin: 0;
 }
 
+/* color palette: #FEB35E-rajah  #781320-burgundy  #38266E-spanish violet  #FA3C24-red RYB  #B46D99-pearly purple */
+
+
 .hero {
     background: url(media/colorful-hero.jpg) top/cover no-repeat;
     height: 970px;
 }
-/* <a href="https://www.freepik.com/photos/background">Background photo created by user3802032 - www.freepik.com</a> */
 
 .website-logo {
     width: 60px;
@@ -14,19 +16,23 @@ body {
 
 nav {
     position: fixed;
+    width: 100%;
+}
+
+.main-nav a:hover{
+    color: rgba(194, 68, 112, 0.93);
 }
 
 .main-nav {
     float: right;
-    margin-top: 39px;
+    margin-top: 25px;
     font-size: 25px;
-    color: white;
 }
 
 .main-nav a {
-    padding-right:30px;
+    padding-right: 30px;
     font-weight: 900;
-    color: white;
+    color: rgba(255, 255, 255, 0.671);
     text-decoration: none;
 }
 
@@ -41,6 +47,7 @@ nav {
     font-size: 110px;
     margin: 0;
     float: right;
+    font-family: 'Roboto', sans-serif;
 }
 
 #about-section {
@@ -48,7 +55,7 @@ nav {
 }
 
 #portfolio-section {
-    background-color: darkslateblue;
+    background-color: #38266E;
     height: 600px;
 }
 
