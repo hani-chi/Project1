@@ -26,13 +26,14 @@ nav {
 .main-nav a {
     padding-right:30px;
     font-weight: 900;
+    color: white;
+    text-decoration: none;
 }
 
 #title-text-hero {
     float: right;
     margin-top: 600px;
     margin-right: 70px;
-    
 }
 
 #hero-title {
