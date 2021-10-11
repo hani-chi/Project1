@@ -27,12 +27,13 @@ nav {
     float: right;
     margin-top: 25px;
     font-size: 25px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .main-nav a {
     padding-right: 30px;
     font-weight: 900;
-    color: rgba(255, 255, 255, 0.671);
+    color: rgba(204, 115, 137, 0.671);
     text-decoration: none;
 }
 
