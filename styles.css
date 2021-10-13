@@ -2,6 +2,13 @@ body {
     margin: 0;
 }
 
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif; 
+}
 /* color palette: #FEB35E-rajah  #781320-burgundy  #38266E-spanish violet  #FA3C24-red RYB  #B46D99-pearly purple */
 
 
@@ -51,15 +58,12 @@ nav {
     font-family: 'Roboto', sans-serif;
 }
 
-#about-section {
-    height: 650px;
-}
-
 #portfolio-section {
     background-color: #38266E;
     height: 600px;
 }
 
-#dreams-section {
-    height: 600px;
+footer {
+    height: 300px;
+    background-color: #38266E;
 }
