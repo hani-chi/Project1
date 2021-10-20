@@ -44,7 +44,7 @@ nav {
     text-decoration: none;
 }
 
-#title-text-hero {
+#hero-section-title {
     float: right;
     margin-top: 600px;
     margin-right: 70px;
@@ -58,12 +58,29 @@ nav {
     font-family: 'Roboto', sans-serif;
 }
 
+#about-paragraph {
+    width 300px;
+}
+
 #portfolio-section {
     background-color: #38266E;
     height: 600px;
 }
 
+/* button {
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32pt;
+} */
+
 footer {
     height: 300px;
     background-color: #38266E;
+}
+
+.social-logos {
+    width: 50px;
+    /* how to center align */
 }
