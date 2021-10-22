@@ -81,6 +81,10 @@ nav {
     font-size: 32pt;
 } */
 
+.dreams-section-title {
+    font-weight: 700;
+}
+
 footer {
     height: 300px;
     background-color: #38266E;
