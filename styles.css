@@ -1,14 +1,8 @@
 body {
     margin: 0;
-}
-
-h1 {
     font-family: 'Roboto', sans-serif;
 }
 
-p {
-    font-family: 'Roboto', sans-serif; 
-}
 /* color palette: #FEB35E-rajah  #781320-burgundy  #38266E-spanish violet  #FA3C24-red RYB  #B46D99-pearly purple */
 
 
@@ -56,6 +50,7 @@ nav {
     margin: 0;
     float: right;
     font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 
 /* #about-paragraph {
@@ -65,6 +60,17 @@ nav {
 #portfolio-section {
     background-color: #38266E;
     height: 600px;
+}
+
+#portfolio-section-link {
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+    margin: 0;
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 40px;
+    text-decoration: none;
 }
 
 /* button {
