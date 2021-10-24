@@ -8,7 +8,7 @@ body {
 
 .hero {
     background: url(media/colorful-hero.jpg) top/cover no-repeat;
-    height: 970px;
+    height: 1000px;
 }
 
 .website-logo {
@@ -40,7 +40,7 @@ nav {
 
 #hero-section-title {
     float: right;
-    margin-top: 600px;
+    margin-top: 650px;
     margin-right: 70px;
 }
 
