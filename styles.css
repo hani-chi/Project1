@@ -64,7 +64,6 @@ nav {
 
 #portfolio-section {
     background-color: #38266E;
-    height: 600px;
 }
 
 #portfolio-section-link {
@@ -76,6 +75,10 @@ nav {
     font-family: 'Roboto', sans-serif;
     margin-right: 40px;
     text-decoration: none;
+}
+
+.portfolio-images {
+    width: 200px;
 }
 
 /* button {
