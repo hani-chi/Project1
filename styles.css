@@ -93,14 +93,14 @@ nav {
     font-weight: 700;
 }
 
-.dream-paragraphs {
+#dreams-container div p {
     height:100px;
     width: 350px;
     overflow: hidden;
     /* text-overflow: ellipsis; */
 }
 
-.dream-images {
+#dreams-container div img {
     width: 300px;
     filter: brightness(50%);
 }
