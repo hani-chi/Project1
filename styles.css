@@ -3,6 +3,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+li {
+    list-style-type: none;
+}
 /* color palette: #FEB35E-rajah  #781320-burgundy  #38266E-spanish violet  #FA3C24-red RYB  #B46D99-pearly purple */
 
 
@@ -97,8 +100,10 @@ nav {
 .dreams-content {
     Display: flex;
     Flex-wrap: nowrap;
-    justify-content: space-evenly;
+    justify-content: center; 
+    /* how to align side by side */
     margin: 50px 80px;
+    gap: 20px;
 }
 
 #dreams-container div p {
