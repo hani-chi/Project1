@@ -89,14 +89,23 @@ nav {
     font-size: 32pt;
 } */
 
-.dreams-section-title {
+#dreams-container h1 {
     font-weight: 700;
+    text-align: center;
+}
+
+.dreams-content {
+    Display: flex;
+    Flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin: 50px 80px;
 }
 
 #dreams-container div p {
     height:100px;
     width: 350px;
     overflow: hidden;
+    text-align: center;
     /* text-overflow: ellipsis; */
 }
 
