@@ -92,29 +92,30 @@ nav {
     font-size: 32pt;
 } */
 
-#dreams-container {
+#dreams {
     border: 1px solid blue;
 }
 
-#dreams-container h1 {
+#dreams h1 {
     font-weight: 700;
     text-align: center;
     margin: 50px;
     margin-top: 80px;
 }
 
-.dreams-content {
-    Display: flex;
-    border: 1px solid red;
-    Flex-wrap: nowrap; 
-    /* how to align side by side */
-    /* margin: 50px 80px;
-    gap: 20px;
-    flex-flow: column wrap;
-    align-items: center; */
+#dreams-container {
+    display: flex;
+	justify-content: space-around;
+    flex-direction: row;
+	align-items: center;
+	align-content: center;
 }
 
-#dreams-container div p {
+.dreams-content {
+    align-content: center;
+}
+
+#dreams div p {
     height:100px;
     width: 350px;
     overflow: hidden;
@@ -122,9 +123,10 @@ nav {
     /* text-overflow: ellipsis; */
 }
 
-#dreams-container div img {
-    width: 300px;
+#dreams div img {
     filter: brightness(50%);
+    width:  350px;
+    height: 200px;
 }
 
 footer {
