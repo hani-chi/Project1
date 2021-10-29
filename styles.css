@@ -63,13 +63,22 @@ nav {
     font-family: 'Roboto', sans-serif;
 }
 
-#about-container img {
+#about img {
     width: 400px;
+    margin: 50px;
 }
 
-#about-container p {
+#about p {
     width: 300px;
     height: 300px;
+}
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
 }
 
 #portfolio-section {
@@ -125,7 +134,7 @@ nav {
     height:100px;
     width: 350px;
     overflow: hidden;
-    white-space: nowrap;
+    /* white-space: nowrap; */
     text-align: left;
     text-overflow: ellipsis;
 }
