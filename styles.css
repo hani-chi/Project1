@@ -111,10 +111,10 @@ nav {
 
 #dreams-container {
     display: flex;
-	justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
     flex-direction: row;
-	align-items: center;
-	align-content: center;
+    gap: 50px;
 }
 
 .dreams-content {
@@ -129,7 +129,7 @@ nav {
     /* text-overflow: ellipsis; */
 }
 
-#dreams div img {
+#dreams img {
     filter: brightness(50%);
     width:  350px;
     height: 200px;
