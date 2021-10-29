@@ -125,8 +125,9 @@ nav {
     height:100px;
     width: 350px;
     overflow: hidden;
-    text-align: center;
-    /* text-overflow: ellipsis; */
+    white-space: nowrap;
+    text-align: left;
+    text-overflow: ellipsis;
 }
 
 #dreams img {
