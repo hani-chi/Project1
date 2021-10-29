@@ -168,9 +168,7 @@ nav {
     height: 200px;
 }
 
-
 footer div {
-    background-color: #FEB35E;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -183,16 +181,17 @@ footer div {
     max-width: 800px;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
+    border-top: 1px solid #38266E;
 }
 
 #footer-links ul {
     display: flex;
     flex-flow: row;
-    padding-left: 20px;
 }
 
 #footer-links a {
-    color: white;
+    color: #38266E;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     padding-left: 20px;
@@ -202,7 +201,7 @@ footer div {
     border-top: none;
     display: flex;
     padding-left: 10px;
-    margin-right: 35px;
+    margin-right: 45px;
 }
 
 #footer-links img {
