@@ -49,13 +49,13 @@ nav {
     text-decoration: none;
 }
 
-#hero-section-title {
+#hero-title {
     float: right;
     margin-top: 650px;
     margin-right: 70px;
 }
 
-#hero-title {
+#hero-title h1 {
     color: white;
     font-size: 110px;
     margin: 0;
@@ -74,10 +74,13 @@ nav {
     border-bottom: 2px solid #000;
 }
 
+#about h1, #dreams h1 {
+    font-size: 35px;
+}
+
 #about p {
     width: 300px;
     height: 300px;
-
 }
 
 .about-container {
@@ -129,14 +132,12 @@ nav {
     font-size: 32pt;
 } */
 
-#dreams {
-    border: 1px solid blue;
-}
-
 #dreams h1 {
     text-align: center;
     margin: 50px;
     margin-top: 80px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
 }
 
 #dreams-container {
@@ -145,6 +146,7 @@ nav {
     flex-wrap: wrap;
     flex-direction: row;
     gap: 50px;
+    margin-bottom: 200px;
 }
 
 .dreams-content {
@@ -154,7 +156,7 @@ nav {
 #dreams div p {
     height:100px;
     width: 350px;
-    overflow: hidden;
+    overflow: auto;
     /* white-space: nowrap; */
     text-align: left;
     text-overflow: ellipsis;
@@ -166,17 +168,43 @@ nav {
     height: 200px;
 }
 
-footer {
-    background-color: #38266E;
+
+footer div {
+    background-color: #FEB35E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.section-header {
+#footer-links {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    max-width: 800px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer-links ul {
+    display: flex;
+    flex-flow: row;
+    padding-left: 20px;
+}
+
+#footer-links a {
     color: white;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
 }
 
-.social-logos {
-    width: 50px;
-    /* how to center align */
+#socials-container {
+    border-top: none;
+    display: flex;
+    padding-left: 10px;
+    margin-right: 35px;
+}
+
+#footer-links img {
+    width: 30px;
 }
