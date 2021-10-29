@@ -3,6 +3,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+    font-weight: 700;
+}
+
+p {
+    font-weight: 300;
+}
+
 li {
     list-style-type: none;
 }
@@ -36,7 +44,7 @@ nav {
 
 .main-nav a {
     padding-right: 30px;
-    font-weight: 900;
+    font-weight: 700;
     color: rgba(204, 115, 137, 0.671);
     text-decoration: none;
 }
@@ -53,7 +61,6 @@ nav {
     margin: 0;
     float: right;
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
 }
 
 #about-container img {
@@ -97,7 +104,6 @@ nav {
 }
 
 #dreams h1 {
-    font-weight: 700;
     text-align: center;
     margin: 50px;
     margin-top: 80px;
