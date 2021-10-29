@@ -92,18 +92,26 @@ nav {
     font-size: 32pt;
 } */
 
+#dreams-container {
+    border: 1px solid blue;
+}
+
 #dreams-container h1 {
     font-weight: 700;
     text-align: center;
+    margin: 50px;
+    margin-top: 80px;
 }
 
 .dreams-content {
     Display: flex;
-    Flex-wrap: nowrap;
-    justify-content: center; 
+    border: 1px solid red;
+    Flex-wrap: nowrap; 
     /* how to align side by side */
-    margin: 50px 80px;
+    /* margin: 50px 80px;
     gap: 20px;
+    flex-flow: column wrap;
+    align-items: center; */
 }
 
 #dreams-container div p {
