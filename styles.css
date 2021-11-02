@@ -50,6 +50,7 @@ nav {
 }
 
 #hero-title {
+    display: flex;
     float: right;
     margin-top: 650px;
     margin-right: 70px;
@@ -102,6 +103,13 @@ nav {
 
     .about-container img {
         margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #hero-title h1 {
+        text-align: right;
+        font-size: 15vw;
     }
 }
 
