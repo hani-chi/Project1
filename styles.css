@@ -222,3 +222,11 @@ footer div {
 #footer-links img {
     width: 30px;
 }
+
+/* portfolio.html styling*/
+
+.portfolio-hero {
+    background: url(media/vivid-hero.jpg) top/cover no-repeat;
+    height: 900px
+}
+
