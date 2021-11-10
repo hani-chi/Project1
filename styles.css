@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -15,7 +19,7 @@ p {
 li {
     list-style-type: none;
 }
-/* color palette: #FEB35E-rajah  #781320-burgundy  #38266E-spanish violet  #FA3C24-red RYB  #B46D99-pearly purple */
+/* color palette: #FEB35E-rajah  #-burgundy  #38266E-spanish violet  #FA3C24-red RYB  #B46D99-pearly purple */
 
 
 .hero {
@@ -32,7 +36,7 @@ nav {
     width: 100%;
 }
 
-.main-nav a:hover{
+.main-nav a:hover {
     color: rgba(194, 68, 112, 0.93);
 }
 
@@ -64,12 +68,13 @@ nav {
     font-size: 110px;
     margin: 0;
     float: right;
-    font-weight: 700px;
+    font-weight: 700;
     
 }
 
 #hero-title h2 {
     font-size: 60px;
+    font-weight: 300;
     color: white;
     float: right;
     margin: 0;
@@ -187,9 +192,10 @@ nav {
     height:100px;
     width: 350px;
     overflow: hidden;
-    /* white-space: nowrap; */
+    /* white-space: nowrap;
+    text-overflow: ellipsis; 
+    HOW TO MAKE ELLIPSIS TEXT OVERFLOW*/
     text-align: left;
-    text-overflow: ellipsis;
 }
 
 #dreams img {
@@ -238,10 +244,4 @@ footer div {
     width: 30px;
 }
 
-/* portfolio.html styling*/
-
-.portfolio-hero {
-    background: url(media/vivid-hero.jpg) top/cover no-repeat;
-    height: 900px
-}
 
