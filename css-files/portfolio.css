@@ -1,40 +1,39 @@
 .portfolio-hero {
-    background: url(../media/vivid-hero.jpg) top/cover no-repeat;
-    height: 500px
+  background: url(../media/vivid-hero.jpg) top/cover no-repeat;
+  height: 500px;
 }
 
 .portfolio-nav {
-    float: right;
-    margin-top: 25px;
-    font-size: 25px;
-    font-family: 'Roboto', sans-serif;
+  float: right;
+  margin-top: 25px;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
 }
 
 .portfolio-nav a {
-    padding-right: 30px;
-    font-weight: 700;
-    color: #38266ecb;
-    text-decoration: none;
+  padding-right: 30px;
+  font-weight: 700;
+  color: #38266ecb;
+  text-decoration: none;
 }
 
 .portfolio-nav a:hover {
-    color: #781320e0;
+  color: #781320e0;
 }
 
 #portfolio-title {
-    display: flex;
-    float: right;
-    flex-flow: column;
-    margin-top: 320px;
-    margin-right: 70px;
-    text-align: right;
+  display: flex;
+  float: right;
+  flex-flow: column;
+  margin-top: 320px;
+  margin-right: 70px;
+  text-align: right;
 }
 
 #portfolio-title h1 {
-    color: white;
-    font-size: 110px;
-    margin: 0;
-    float: right;
-    font-weight: 700;
-    
+  color: white;
+  font-size: 110px;
+  margin: 0;
+  float: right;
+  font-weight: 700;
 }

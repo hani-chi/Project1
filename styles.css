@@ -1,162 +1,161 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    overflow-x: hidden;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
 
 h1 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 p {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 /* color palette: #FEB35E-rajah  #-burgundy  #38266E-spanish violet  #FA3C24-red RYB  #B46D99-pearly purple */
 
-
 .hero {
-    background: url(media/colorful-hero.jpg) top/cover no-repeat;
-    height: 1000px;
+  background: url(media/colorful-hero.jpg) top/cover no-repeat;
+  height: 1000px;
 }
 
 .website-logo {
-    width: 60px;
+  width: 60px;
 }
 
 nav {
-    position: fixed;
-    width: 100%;
+  position: fixed;
+  width: 100%;
 }
 
 .main-nav a:hover {
-    color: rgba(194, 68, 112, 0.93);
+  color: rgba(194, 68, 112, 0.93);
 }
 
 .main-nav {
-    float: right;
-    margin-top: 25px;
-    font-size: 25px;
-    font-family: 'Roboto', sans-serif;
+  float: right;
+  margin-top: 25px;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
 }
 
 .main-nav a {
-    padding-right: 30px;
-    font-weight: 700;
-    color: rgba(204, 115, 137, 0.671);
-    text-decoration: none;
+  padding-right: 30px;
+  font-weight: 700;
+  color: rgba(204, 115, 137, 0.671);
+  text-decoration: none;
 }
 
 #hero-title {
-    display: flex;
-    float: right;
-    flex-flow: column;
-    margin-top: 600px;
-    margin-right: 70px;
-    text-align: right;
+  display: flex;
+  float: right;
+  flex-flow: column;
+  margin-top: 600px;
+  margin-right: 70px;
+  text-align: right;
 }
 
 #hero-title h1 {
-    color: white;
-    font-size: 110px;
-    margin: 0;
-    float: right;
-    font-weight: 700;
-    
+  color: white;
+  font-size: 110px;
+  margin: 0;
+  float: right;
+  font-weight: 700;
 }
 
 #hero-title h2 {
-    font-size: 60px;
-    font-weight: 300;
-    color: white;
-    float: right;
-    margin: 0;
+  font-size: 60px;
+  font-weight: 300;
+  color: white;
+  float: right;
+  margin: 0;
 }
 
 #about img {
-    width: 400px;
-    margin: 50px;
+  width: 400px;
+  margin: 50px;
 }
 
 #about h1 {
-    text-align: left;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #000;
+  text-align: left;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #000;
 }
 
-#about h1, #dreams h1 {
-    font-size: 35px;
+#about h1,
+#dreams h1 {
+  font-size: 35px;
 }
 
 #about p {
-    width: 300px;
-    height: 300px;
+  width: 300px;
+  height: 300px;
 }
 
 .about-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 50px;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
 }
 
 @media only screen and (max-width: 800px) {
-    .about-container {
-        gap: 0;
-    }
+  .about-container {
+    gap: 0;
+  }
 
-    .about-container div {
-        margin-top: 50px;
-    }
+  .about-container div {
+    margin-top: 50px;
+  }
 
-    .about-container img {
-        margin-top: 0;
-    }
+  .about-container img {
+    margin-top: 0;
+  }
 }
 
 @media only screen and (max-width: 750px) {
-    nav span {
-        display: none;
-    }
+  nav span {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
-    #hero-title h1 {
-        text-align: right;
-        font-size: 12vw;
-    }
+  #hero-title h1 {
+    text-align: right;
+    font-size: 12vw;
+  }
 
-    #hero-title h2 {
-        text-align: right;
-        font-size: 5vw;
-    }
+  #hero-title h2 {
+    text-align: right;
+    font-size: 5vw;
+  }
 }
 
 #portfolio {
-    background-color: #38266E;
+  background-color: #38266e;
 }
 
 #portfolio a {
-    color: white;
-    font-size: 70px;
-    font-weight: 700;
-    margin: 0;
-    float: right;
-    font-family: 'Roboto', sans-serif;
-    margin-right: 40px;
-    text-decoration: none;
+  color: white;
+  font-size: 70px;
+  font-weight: 700;
+  margin: 0;
+  float: right;
+  font-family: "Roboto", sans-serif;
+  margin-right: 40px;
+  text-decoration: none;
 }
 
 .portfolio-images {
-    width: 200px;
+  width: 200px;
 }
 
 /* button {
@@ -168,80 +167,78 @@ nav {
 } */
 
 #dreams h1 {
-    text-align: center;
-    margin: 50px;
-    margin-top: 80px;
-    border-bottom: 1px solid #000;
-    padding-bottom: 10px;
+  text-align: center;
+  margin: 50px;
+  margin-top: 80px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
 }
 
 #dreams-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 50px;
-    margin-bottom: 200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 50px;
+  margin-bottom: 200px;
 }
 
 .dreams-content {
-    align-content: center;
+  align-content: center;
 }
 
 #dreams div p {
-    height:100px;
-    width: 350px;
-    overflow: hidden;
-    /* white-space: nowrap;
+  height: 100px;
+  width: 350px;
+  overflow: hidden;
+  /* white-space: nowrap;
     text-overflow: ellipsis; 
     HOW TO MAKE ELLIPSIS TEXT OVERFLOW*/
-    text-align: left;
+  text-align: left;
 }
 
 #dreams img {
-    filter: brightness(50%);
-    width:  350px;
-    height: 200px;
+  filter: brightness(50%);
+  width: 350px;
+  height: 200px;
 }
 
 footer div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #footer-links {
-    display: flex;
-    flex-flow: row;
-    width: 100%;
-    max-width: 800px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    border-top: 1px solid #38266E;
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  max-width: 800px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-top: 1px solid #38266e;
 }
 
 #footer-links ul {
-    display: flex;
-    flex-flow: row;
+  display: flex;
+  flex-flow: row;
 }
 
 #footer-links a {
-    color: #38266E;
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    padding-left: 20px;
+  color: #38266e;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  padding-left: 20px;
 }
 
 #socials-container {
-    border-top: none;
-    display: flex;
-    padding-left: 10px;
-    margin-right: 45px;
+  border-top: none;
+  display: flex;
+  padding-left: 10px;
+  margin-right: 45px;
 }
 
 #footer-links img {
-    width: 30px;
+  width: 30px;
 }
-
-
