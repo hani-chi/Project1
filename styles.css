@@ -125,6 +125,28 @@ nav {
   nav span {
     display: none;
   }
+
+  /* footer {
+    display: flex;
+    flex-flow: column;
+  }
+
+  #footer-links {
+    color: red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #38266e;
+  }
+
+  #footer-links ul {
+    display: flex;
+    flex-flow: row; 
+  } */
 }
 
 @media only screen and (max-width: 1000px) {
@@ -203,26 +225,28 @@ nav {
   height: 200px;
 }
 
-footer div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+@media only screen and (min-width: 750px) {
+  footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-#footer-links {
-  display: flex;
-  flex-flow: row;
-  width: 100%;
-  max-width: 800px;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  border-top: 1px solid #38266e;
-}
+  #footer-links {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    max-width: 800px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #38266e;
+  }
 
-#footer-links ul {
-  display: flex;
-  flex-flow: row;
+  #footer-links ul {
+    display: flex;
+    flex-flow: row;
+  }
 }
 
 #footer-links a {
