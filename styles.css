@@ -217,6 +217,7 @@ nav {
     display: flex;
     flex-flow: row;
     width: 100%;
+    max-width: 800px;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
