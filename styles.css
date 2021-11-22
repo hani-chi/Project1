@@ -202,43 +202,88 @@ nav {
   width: 350px;
   height: 200px;
 }
+@media only screen and (min-width: 700px) {
+  #mobile-footer {
+    display: none;
+  }
 
-footer div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #footer-links {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #38266e;
+  }
+
+  #footer-links ul {
+    display: flex;
+    flex-flow: row;
+  }
+
+  #footer-links a {
+    color: #38266e;
+    text-decoration: none;
+    padding-left: 20px;
+  }
+
+  #socials-container {
+    border-top: none;
+    display: flex;
+    padding-left: 10px;
+    margin-right: 45px;
+  }
+
+  #footer-links img {
+    width: 30px;
+  }
 }
 
-#footer-links {
-  display: flex;
-  flex-flow: row;
-  width: 100%;
-  max-width: 800px;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  border-top: 1px solid #38266e;
-}
+@media only screen and (max-width: 700px) {
+  #desktop-footer {
+    display: none;
+  }
 
-#footer-links ul {
-  display: flex;
-  flex-flow: row;
-}
+  footer {
+    background-color: #38266e;
+  }
 
-#footer-links a {
-  color: #38266e;
-  text-decoration: none;
-  font-family: "Roboto", sans-serif;
-  padding-left: 20px;
-}
+  #mobile-links img {
+    width: 30px;
+  }
 
-#socials-container {
-  border-top: none;
-  display: flex;
-  padding-left: 10px;
-  margin-right: 45px;
-}
+  #mobile-links {
+    border: 1px solid red;
 
-#footer-links img {
-  width: 30px;
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: left;
+    padding: 20px 10px;
+  }
+
+  #mobile-links a {
+    color: white;
+    text-decoration: none;
+  }
+
+  #mobile-links a:hover {
+    text-decoration: underline;
+  }
+
+  #mobile-socials {
+    border: 1px solid red;
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+    padding-right: 20px;
+  }
 }
