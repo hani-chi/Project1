@@ -119,6 +119,20 @@ nav {
   .about-container img {
     margin-top: 0;
   }
+
+  .hero {
+    background: url(media/colorful-hero.jpg) top/cover no-repeat;
+    height: 400px;
+  }
+
+  #hero-title {
+    display: flex;
+    float: right;
+    flex-flow: column;
+    margin-top: 150px;
+    margin-right: 70px;
+    text-align: right;
+  }
 }
 
 @media only screen and (max-width: 750px) {
@@ -268,6 +282,13 @@ nav {
 
   #footer-links img {
     width: 30px;
+  }
+}
+/* hamburger menu navbar styling */
+
+@media only screen and (min-width: 700px) {
+  .navbar {
+    display: none;
   }
 }
 
