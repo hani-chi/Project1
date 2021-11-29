@@ -139,28 +139,6 @@ nav {
   nav span {
     display: none;
   }
-
-  /* footer {
-    display: flex;
-    flex-flow: column;
-  }
-
-  #footer-links {
-    color: red;
-    display: flex;
-    flex-wrap: wrap;
-    flex-flow: column;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    border-top: 1px solid #38266e;
-  }
-
-  #footer-links ul {
-    display: flex;
-    flex-flow: row; 
-  } */
 }
 
 @media only screen and (max-width: 1000px) {
@@ -238,52 +216,54 @@ nav {
   width: 350px;
   height: 200px;
 }
+
 @media only screen and (min-width: 700px) {
   #mobile-footer {
     display: none;
   }
+}
 
-  @media only screen and (min-width: 750px) {
-    footer div {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    #footer-links {
-      display: flex;
-      flex-flow: row;
-      width: 100%;
-      max-width: 800px;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px;
-      border-top: 1px solid #38266e;
-    }
-
-    #footer-links ul {
-      display: flex;
-      flex-flow: row;
-    }
-  }
-
-  #footer-links a {
-    color: #38266e;
-    text-decoration: none;
-    padding-left: 20px;
-  }
-
-  #socials-container {
-    border-top: none;
+@media only screen and (min-width: 750px) {
+  footer div {
     display: flex;
-    padding-left: 10px;
-    margin-right: 45px;
+    justify-content: center;
+    align-items: center;
   }
 
-  #footer-links img {
-    width: 30px;
+  #footer-links {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    max-width: 800px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #38266e;
+  }
+
+  #footer-links ul {
+    display: flex;
+    flex-flow: row;
   }
 }
+
+#footer-links a {
+  color: #38266e;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+#socials-container {
+  border-top: none;
+  display: flex;
+  padding-left: 10px;
+  margin-right: 45px;
+}
+
+#footer-links img {
+  width: 30px;
+}
+
 /* hamburger menu navbar styling */
 
 @media only screen and (min-width: 700px) {
