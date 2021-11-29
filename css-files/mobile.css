@@ -1,0 +1,36 @@
+/* .hero {
+  background: url(media/colorful-hero.jpg) top/cover no-repeat;
+  height: 1000px;
+}
+
+@media only screen and (max-width: 800px) {
+  .about-container {
+    gap: 0;
+  }
+
+  .about-container div {
+    margin-top: 50px;
+  }
+
+  .about-container img {
+    margin-top: 0;
+  }
+
+  .hero {
+    background: url(./media/colorful-hero.jpg) top/cover no-repeat;
+    height: 400px;
+  }
+
+  #hero-title {
+    display: flex;
+    float: right;
+    flex-flow: column;
+    margin-top: 150px;
+    margin-right: 70px;
+    text-align: right;
+  }
+
+  nav span {
+    display: none;
+  }
+} */
