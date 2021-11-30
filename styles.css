@@ -23,7 +23,7 @@ li {
 
 .hero {
   background: url(media/colorful-hero.jpg) top/cover no-repeat;
-  height: 1000px;
+  height: 100vh;
 }
 
 .website-logo {
