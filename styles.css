@@ -204,11 +204,11 @@ nav {
 } */
 
 #dreams h1 {
-  margin: 50px;
-  margin-top: 80px;
   border-bottom: 2px solid #000;
-  max-width: 1000px;
-  padding-bottom: 10px;
+  max-width: 1150px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 #dreams-container {
@@ -228,9 +228,9 @@ nav {
   height: 100px;
   width: 350px;
   overflow: hidden;
-  /* white-space: nowrap;
-    text-overflow: ellipsis; 
-    HOW TO MAKE ELLIPSIS TEXT OVERFLOW*/
+  /* white-space: nowrap; */
+  /* text-overflow: ellipsis; */
+  /* HOW TO MAKE ELLIPSIS TEXT OVERFLOW */
   text-align: left;
   padding: 10px 0;
 }
