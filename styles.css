@@ -110,20 +110,6 @@ nav {
   align-items: center;
 }
 
-@media only screen and (max-width: 800px) {
-  .about-container {
-    gap: 0;
-  }
-
-  .about-container div {
-    margin-top: 50px;
-  }
-
-  .about-container img {
-    margin-top: 0;
-  }
-}
-
 @media only screen and (min-width: 750px) {
   .navbar {
     display: none;
@@ -288,7 +274,26 @@ nav {
   width: 30px;
 }
 
+/* mobile styling */
+
+@media only screen and (max-width: 800px) {
+  .about-container {
+    gap: 0;
+  }
+  .about-container div {
+    margin-top: 50px;
+  }
+  .about-container img {
+    margin-top: 0;
+  }
+}
+
 /* hamburger menu navbar styling */
+
+.navbar-nav {
+  float: right;
+  text-align: right;
+}
 
 @media only screen and (min-width: 700px) {
   .navbar {
