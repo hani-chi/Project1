@@ -116,40 +116,6 @@ nav {
   }
 }
 
-@media only screen and (max-width: 750px) {
-  nav span {
-    display: none;
-  }
-
-  /* .hero {
-    height: 400px;
-  }
-
-  #hero-title {
-    display: flex;
-    float: right;
-    flex-flow: column;
-    margin-top: 100px;
-    margin-right: 70px;
-    text-align: right;
-  } */
-
-  /* footer {
-    display: flex;
-    float: right;
-    flex-flow: column;
-    margin-top: 100px;
-    margin-right: 70px;
-    text-align: right;
-  } */
-}
-
-@media only screen and (max-width: 750px) {
-  nav span {
-    display: none;
-  }
-}
-
 @media only screen and (max-width: 1000px) {
   #hero-title h1 {
     text-align: right;
@@ -286,6 +252,34 @@ nav {
   .about-container img {
     margin-top: 0;
   }
+}
+
+@media only screen and (max-width: 750px) {
+  nav span {
+    display: none;
+  }
+
+  .hero {
+    height: 400px;
+  }
+
+  #hero-title {
+    display: flex;
+    float: right;
+    flex-flow: column;
+    margin-top: 150px;
+    margin-right: 70px;
+    text-align: right;
+  }
+
+  /* footer {
+    display: flex;
+    float: right;
+    flex-flow: column;
+    margin-top: 100px;
+    margin-right: 70px;
+    text-align: right;
+  } */
 }
 
 /* hamburger menu navbar styling */
