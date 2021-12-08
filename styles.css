@@ -128,10 +128,6 @@ nav {
   }
 }
 
-#portfolio {
-  background-color: #38266e;
-}
-
 #portfolio a {
   color: white;
   font-size: 70px;
@@ -145,6 +141,17 @@ nav {
 
 .portfolio-images {
   width: 200px;
+}
+
+.carousel-inner img {
+  height: 500px;
+}
+
+.carousel-inner img {
+  height: 500px;
+  width: auto;
+  object-fit: cover !important;
+  display: block;
 }
 
 /* button {
