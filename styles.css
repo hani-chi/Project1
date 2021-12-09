@@ -19,6 +19,7 @@ p {
 li {
   list-style-type: none;
 }
+
 /* color palette: #FEB35E-rajah  #-burgundy  #38266E-spanish violet  #FA3C24-red RYB  #B46D99-pearly purple */
 /* Design for desktop displays from 1024×768 through 1920×1080
 Design for mobile displays from 360×640 through 414×896
@@ -36,6 +37,7 @@ Design for tablet displays from 601×962 through 1280×800 */
 nav {
   position: fixed;
   width: 100%;
+  z-index: 10;
 }
 
 .main-nav a:hover {
@@ -129,18 +131,40 @@ nav {
 }
 
 #portfolio a {
-  color: white;
+  color: black;
   font-size: 70px;
   font-weight: 700;
-  margin: 0;
-  float: right;
   font-family: "Roboto", sans-serif;
-  margin-right: 40px;
   text-decoration: none;
+  left: 0 !important;
 }
 
-.portfolio-images {
-  width: 200px;
+/* portfolio carousel styling */
+
+#portfolio {
+  /* background: #000; */
+}
+
+.carousel-inner img {
+  transition: transform 0.5s ease;
+  -webkit-transition: all 1s ease;
+}
+
+.carousel-inner:hover img {
+  transform: scale(1.3);
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+}
+
+.carousel-inner--brightness img {
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transform-origin: center center;
+  filter: brightness(50%);
+}
+
+.carousel-inner--brightness:hover img {
+  filter: brightness(50%);
+  transform: scale(1.3);
 }
 
 .carousel-inner img {
