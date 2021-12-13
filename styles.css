@@ -27,7 +27,7 @@ Design for tablet displays from 601×962 through 1280×800 */
 
 .hero {
   background: url(media/colorful-hero.jpg) top/cover no-repeat;
-  height: 100vh;
+  height: 1000px;
 }
 
 .website-logo {
@@ -118,7 +118,7 @@ nav {
   }
 }
 
-@media only screen and (max-width: 1000px) {
+/* @media only screen and (max-width: 1000px) {
   #hero-title h1 {
     text-align: right;
     font-size: 12vw;
@@ -128,7 +128,7 @@ nav {
     text-align: right;
     font-size: 5vw;
   }
-}
+} */
 
 #portfolio a {
   color: black;
