@@ -20,10 +20,8 @@ li {
   list-style-type: none;
 }
 
-/* color palette: #FEB35E-rajah  #-burgundy  #38266E-spanish violet  #FA3C24-red RYB  #B46D99-pearly purple */
-/* Design for desktop displays from 1024×768 through 1920×1080
-Design for mobile displays from 360×640 through 414×896
-Design for tablet displays from 601×962 through 1280×800 */
+/* color palette: carnelian - #B9071B; lapis lazuli - #075F96; 
+portland orange - #FE5D29; russian violet - #481C57; st. patricks blue - #002D7E */
 
 .hero {
   background: url(media/colorful-hero.jpg) top/cover no-repeat;
@@ -90,8 +88,9 @@ nav {
 
 #about h1 {
   text-align: left;
-  padding-bottom: 10px;
-  border-bottom: 2px solid #000;
+  padding-left: 10px;
+  color: #fe5d29;
+  border-left: 4px solid #fe5d29;
 }
 
 #about h1,
@@ -118,24 +117,16 @@ nav {
   }
 }
 
-/* @media only screen and (max-width: 1000px) {
-  #hero-title h1 {
-    text-align: right;
-    font-size: 12vw;
-  }
-
-  #hero-title h2 {
-    text-align: right;
-    font-size: 5vw;
-  }
-} */
-
 #portfolio a {
-  color: black;
+  color: rgba(255, 255, 255, 0.788);
   font-size: 70px;
   font-weight: 700;
   font-family: "Roboto", sans-serif;
   text-decoration: none;
+}
+
+#portfolio a:hover {
+  color: rgba(189, 189, 189, 0.774);
 }
 
 .car-title {
@@ -179,19 +170,22 @@ nav {
   display: block;
 }
 
-/* button {
-    background-color: transparent;
-    border-color: transparent;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 32pt;
-} */
+/*dreams section styling*/
+
+#dreams {
+  padding: 50px 0;
+}
+
+.card {
+  width: 400px;
+  margin: 0 30px;
+}
 
 #dreams h1 {
   border-bottom: 2px solid #000;
   max-width: 1150px;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 75px;
   margin-bottom: 50px;
 }
 
@@ -200,9 +194,11 @@ nav {
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 50px;
-  margin-bottom: 200px;
+  gap: 200px;
 }
+/* 
+
+
 
 .dreams-content {
   align-content: center;
@@ -212,12 +208,12 @@ nav {
   height: 100px;
   width: 350px;
   overflow: hidden;
-  /* white-space: nowrap; */
-  /* text-overflow: ellipsis; */
-  /* HOW TO MAKE ELLIPSIS TEXT OVERFLOW */
+  white-space: nowrap;
+  text-overflow: ellipsis;
+HOW TO MAKE ELLIPSIS TEXT OVERFLOW
   text-align: left;
   padding: 10px 0;
-}
+} */
 
 #dreams img {
   filter: brightness(50%);
