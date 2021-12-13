@@ -62,7 +62,7 @@ nav {
   display: flex;
   float: right;
   flex-flow: column;
-  margin-top: 600px;
+  margin-top: 40%;
   margin-right: 70px;
   text-align: right;
 }
@@ -136,6 +136,12 @@ nav {
   font-weight: 700;
   font-family: "Roboto", sans-serif;
   text-decoration: none;
+}
+
+.car-title {
+  position: absolute;
+  margin-top: -150px;
+  right: 80px;
 }
 
 /* portfolio carousel styling */
