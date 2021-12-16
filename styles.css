@@ -36,15 +36,18 @@ nav {
   position: fixed;
   width: 100%;
   z-index: 10;
+  background-color: rgb(240 240 240 / 1);
+  box-shadow: 0px 14px 20px rgba(0, 0, 0, 0.2);
 }
 
 .main-nav a:hover {
-  color: rgba(194, 68, 112, 0.93);
+  color: #001947;
+  /* color: rgba(194, 68, 112, 0.93); */
 }
 
 .main-nav {
   float: right;
-  margin-top: 25px;
+  margin-top: 13px;
   font-size: 25px;
   font-family: "Roboto", sans-serif;
 }
@@ -52,7 +55,8 @@ nav {
 .main-nav a {
   padding-right: 30px;
   font-weight: 700;
-  color: rgba(204, 115, 137, 0.671);
+  /* color: rgba(204, 115, 137, 0.671); */
+  color: #002d7e;
   text-decoration: none;
 }
 
@@ -136,28 +140,13 @@ nav {
 }
 
 /* portfolio carousel styling */
-/* 
-.carousel-inner img {
-  transition: transform 0.5s ease;
-  -webkit-transition: all 1s ease;
+.carousel-item {
+  filter: grayscale(100%);
 }
 
-.carousel-inner:hover img {
-  transform: scale(1.3);
-  -webkit-filter: brightness(50%);
-  filter: brightness(50%);
+.carousel-item:hover {
+  filter: none;
 }
-
-.carousel-inner--brightness img {
-  transition: transform 2s, filter 1.5s ease-in-out;
-  transform-origin: center center;
-  filter: brightness(50%);
-}
-
-.carousel-inner--brightness:hover img {
-  filter: brightness(50%);
-  transform: scale(1.3);
-} */
 
 .carousel-inner img {
   height: 500px;
