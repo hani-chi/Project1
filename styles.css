@@ -160,30 +160,35 @@ nav {
 /*dreams section styling*/
 #dreams {
   padding: 50px 0;
+  margin: 70px 0px 30px 63px;
 }
 
 .card {
   width: 1000px;
   margin: 0 30px;
+  box-sizing: border-box;
 }
 
 .card p {
   height: 75px;
-  overflow: hidden;
 }
 
+.color-card {
+  background-color: #481c57;
+  color: white;
+}
 #dreams h1 {
   color: #fe5d29;
   border-top: 4px solid #fe5d29;
   padding-top: 20px;
-  max-width: 300px;
+  max-width: 330px;
   /* float: left; */
-  margin: 75px 30px 30px 95px;
+  /* margin: 75px 30px 30px 95px; */
 }
-
+/* 
 .dream-cards {
   margin: 73px 0 10px 0;
-}
+} */
 
 #dreams-container {
   display: flex;
@@ -219,49 +224,4 @@ HOW TO MAKE ELLIPSIS TEXT OVERFLOW
 .bi {
   vertical-align: -0.125em;
   fill: currentColor;
-}
-
-@media only screen and (min-width: 750px) {
-  #mobile-footer {
-    display: none;
-  }
-
-  footer div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  #footer-links {
-    display: flex;
-    flex-flow: row;
-    width: 100%;
-    max-width: 800px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    border-top: 1px solid #38266e;
-  }
-
-  #footer-links ul {
-    display: flex;
-    flex-flow: row;
-  }
-}
-
-#footer-links a {
-  color: #38266e;
-  text-decoration: none;
-  padding-left: 20px;
-}
-
-#socials-container {
-  border-top: none;
-  display: flex;
-  padding-left: 10px;
-  margin-right: 45px;
-}
-
-#footer-links img {
-  width: 30px;
 }
