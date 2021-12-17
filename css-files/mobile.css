@@ -48,7 +48,7 @@
     margin: 0;
   }
 
-  /*mobile footer styling*/
+  /* mobile footer styling
   #desktop-footer {
     display: none;
   }
@@ -83,6 +83,10 @@
     justify-content: flex-end;
     gap: 5px;
     padding-right: 20px;
+  }*/
+
+  #portfolio-title h1 {
+    font-size: 70px;
   }
 }
 
