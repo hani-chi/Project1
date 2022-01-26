@@ -31,7 +31,7 @@
   </head>
   <body>
     <section class="hero">
-      <nav id="desktop-nav">
+      <nav id="desktop-nav" class="scroll-nav">
         <a href="index.html">
           <img class="website-logo" alt="Website Logo" src="./media/logo.png" />
         </a>
@@ -157,7 +157,7 @@
                 A skull being suffocated by a substance. A painting I made in
                 2019.
               </p>
-              <a class="btn btn-lg btn-primary" href="./portfolio.html"
+              <a class="btn btn-portfolio btn-lg btn-primary" href="./portfolio.html"
                 >Portfolio</a
               >
             </div>
@@ -174,7 +174,7 @@
               <p>
                 A referenced painting I made on a ceiling tile in 8th grade.
               </p>
-              <a class="btn btn-lg btn-primary" href="./portfolio.html"
+              <a class="btn btn-portfolio btn-lg btn-primary" href="./portfolio.html"
                 >Portfolio</a
               >
             </div>
@@ -191,7 +191,7 @@
               <p>
                 A heart with flowers blooming inside. A painting I made in 2019.
               </p>
-              <a class="btn btn-lg btn-primary" href="./portfolio.html"
+              <a class="btn btn-portfolio btn-lg btn-primary" href="./portfolio.html"
                 >Portfolio</a
               >
             </div>
@@ -206,7 +206,7 @@
             <div class="carousel-caption d-none d-md-block text-start">
               <h5><strong>A Jar of Flowers</strong></h5>
               <p>A cross stitch embroidery project I made in 2020.</p>
-              <a class="btn btn-lg btn-primary" href="./portfolio.html"
+              <a class="btn btn-portfolio btn-lg btn-primary" href="./portfolio.html"
                 >Portfolio</a
               >
             </div>
@@ -250,19 +250,23 @@
               <div class="col-sm-3 col-md-8">
                 <div class="card-body">
                   <h5 class="card-title">Designer</h5>
-                  <p>
+                  <p >
                     Since I was a kid, art and design has been a big part of my
                     life. One of my first dream careers was to be an interior
                     designer. As I grew older, this branched off into
                     architecture and more tech-related design careers, like
-                    graphic designer, website designer, and UX/UI designer. I
+                    graphic designer, website designer, and UX/UI designer. 
+                    <span class="list">I
                     didn't want to give up my love for art for more practical
                     jobs and better pay, so I'd love a career that will let me
-                    continue my passion for design while working with tech.
+                    continue my passion for design while working with tech.</span>
                   </p>
+                  <button class="btn btn-show btn-primary test">Show</button>
                 </div>
               </div>
+              
             </div>
+            
           </div>
           <div class="card mb-3">
             <div class="row g-0">
@@ -356,8 +360,10 @@
           border-top
         "
       >
-        <div>
-          <span class="text-muted">&copy; 2021 Hanah Sakinovic</span>
+        <div class="text-muted">
+          <!-- <span id="current-year" class="text-muted">&copy; 2021 Hanah Sakinovic</span> -->
+          <span>&copy; 2021 - <span id="current-year"></span></span>
+          <span>Hanah Sakinovic</span>
         </div>
 
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
