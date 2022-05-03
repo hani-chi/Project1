@@ -224,6 +224,10 @@ HOW TO MAKE ELLIPSIS TEXT OVERFLOW
   object-fit: cover;
 }
 
+.fashion-card {
+  border-radius: 0;
+}
+
 .btn-show {
   background-color: #fe5d29;
   border-color: rgba(0, 0, 0, 0.2);
