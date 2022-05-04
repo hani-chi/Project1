@@ -166,7 +166,8 @@ hr {
 
 #btn-portfolio {
   color: white;
-  padding: 5px 20px;
+  padding: 10px 25px;
+  text-decoration: none;
   background-color: #481c57;
   border-color: #391346;
   border-radius: 45px;
