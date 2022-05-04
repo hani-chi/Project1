@@ -139,3 +139,44 @@
   margin: 50px;
   text-align: center;
 }
+
+@media only screen and (max-width: 930px) {
+  #dreams-desktop {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 930px) {
+  #mobile-dreams {
+    display: none;
+  }
+}
+
+#mobile-dreams-h1 {
+  color: #fe5d29;
+  text-align: center;
+  margin: 50px 0 20px 0;
+}
+
+
+.mobile-dream-cards {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #481c57;
+  color: white;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.mobile-dream-cards img {
+  max-width: 400px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.mobile-dream-cards h2 {
+  padding: 5px 0 0 10px;
+}
+
+.mobile-dream-cards p {
+  padding: 0 0 15px 10px;
+}

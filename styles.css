@@ -223,9 +223,9 @@ nav {
 } */
 
 /*dreams section styling*/
-#dreams {
+#dreams-desktop {
   padding: 50px 0;
-  margin: 70px 0px 30px 63px;
+  margin: 00px 0px 30px 63px;
 }
 
 .card {
@@ -236,7 +236,7 @@ nav {
   background-color: #481c57;
   color: white;
 }
-#dreams h1 {
+#dreams-desktop h1 {
   color: #fe5d29;
   border-top: 4px solid #fe5d29;
   padding-top: 20px;
@@ -273,7 +273,7 @@ HOW TO MAKE ELLIPSIS TEXT OVERFLOW
   padding: 10px 0;
 } */
 
-#dreams img {
+#dreams-desktop img {
   filter: brightness(50%);
   width: 100%;
   height: 100%;
