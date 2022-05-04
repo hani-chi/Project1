@@ -295,6 +295,11 @@ HOW TO MAKE ELLIPSIS TEXT OVERFLOW
   border-radius: 0;
 }
 
+#dreams .fashion-card img {
+  width: 80%;
+  float: right;
+}
+
 .btn-show {
   background-color: #fe5d29;
   border-color: rgba(0, 0, 0, 0.2);
