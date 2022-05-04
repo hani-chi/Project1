@@ -113,3 +113,29 @@
     display: none;
   }
 }
+
+@media only screen and (max-width: 1500px) {
+  #portfolio-desktop {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1499px) {
+  #port-mobile {
+    display: none;
+  }
+}
+#port-mobile {
+  background-color: #fe5d29;
+  margin-top: 50px;
+  padding: 20px 0;
+}
+
+#port-mobile h1 {
+  color: white;
+}
+
+#port-text-mobile {
+  margin: 50px;
+  text-align: center;
+}
